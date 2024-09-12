@@ -1,0 +1,172 @@
+﻿<UserControl x:Class="ProcessMVVM.Views.AnalysisView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProcessMVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1100">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ViewsStyling.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="{Binding SelectedTCPProcess.ProcessName}" Style="{StaticResource Headers}" Grid.ColumnSpan="4"/>
+                
+<!--General List-->        <Border Grid.Row="1" Grid.ColumnSpan="4" Style="{StaticResource BorderTheme}">
+            <ListView ItemsSource="{Binding RelatedProcesses}" HorizontalAlignment="Center" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Process ID">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding ProcessID}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Local IP">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding LocalIP}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Local Port">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding LocalPort}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Remote IP">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding RemoteIP}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Remote Port">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding RemotePort}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Status">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Status}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+        <!--Local Ports List-->
+        <Border Grid.Row="2" Style="{StaticResource BorderTheme}">
+            <StackPanel>
+                <TextBlock Text="Local Ports:" Style="{StaticResource Headers}"/>
+                <ListView ItemsSource="{Binding LocalPorts}" HorizontalAlignment="Center">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Local Ports">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" Style="{StaticResource Regular}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </Border>
+        <!--Local IPs List-->
+<Border Grid.Row="2" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <StackPanel>
+                <TextBlock Text="Local IPs:" Style="{StaticResource Headers}"/>
+                <ListView ItemsSource="{Binding LocalIPs}" HorizontalAlignment="Center">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Local IPs">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" Style="{StaticResource Regular}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </Border>
+        <!--Remote Ports List-->
+        <Border Grid.Row="2" Grid.Column="2" Style="{StaticResource BorderTheme}">
+            <StackPanel>
+                <TextBlock Text="Remote Ports:" Style="{StaticResource Headers}"/>
+                <ListView ItemsSource="{Binding RemotePorts}" HorizontalAlignment="Center">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" Style="{StaticResource Regular}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </Border>
+        <!--Remote IPs List-->
+        <Border Grid.Row="2" Grid.Column="3" Style="{StaticResource BorderTheme}">
+            <StackPanel>
+                <TextBlock Text="Remote IPs:" Style="{StaticResource Headers}"/>
+                <ListView ItemsSource="{Binding RemoteIPs}" HorizontalAlignment="Center">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Remote IPs">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" Style="{StaticResource Regular}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="3" Grid.ColumnSpan="4" Style="{StaticResource BorderTheme}">
+            <StackPanel>
+                <TextBlock Text="Number Of Related Processes" Style="{StaticResource Headers}"/>
+                <TextBlock Text="{Binding ProcessCount}" Style="{StaticResource Regular}"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="4" Grid.ColumnSpan="4" Style="{StaticResource BorderTheme}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Command="{Binding CloseCommand}" Content="Close" Style="{StaticResource ButtonTheme}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+                <Button Command="{Binding PreviousViewCommand}" Content="Back" Style="{StaticResource ButtonTheme}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
+ 

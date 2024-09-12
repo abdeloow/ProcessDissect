@@ -1,0 +1,522 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\viewmodels\\analysisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\viewmodels\\analysisviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\viewmodels\\particularprocessviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\viewmodels\\particularprocessviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\stores\\navigationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\stores\\navigationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\services\\parameternavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\services\\parameternavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\models\\tcpprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\models\\tcpprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\models\\helpers\\netstatoutputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\models\\helpers\\netstatoutputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\closecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\closecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\refreshcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\refreshcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\navigatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\navigatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\navigateanalysiscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\navigateanalysiscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\detailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\detailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\processmvvm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\processmvvm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\views\\analysisview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\views\\analysisview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\exceptions\\netstatprocessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\exceptions\\netstatprocessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\views\\secondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\views\\secondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\views\\particularprocessview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\views\\particularprocessview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|c:\\users\\dihba\\desktop\\zentries\\network scanner\\processmvvm\\processmvvm\\views\\viewsstyling.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D790CF2-29F7-4F47-93C0-761673774764}|ProcessMVVM\\ProcessMVVM.csproj|solutionrelative:processmvvm\\views\\viewsstyling.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 32,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProcessMVVM.csproj",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ProcessMVVM.csproj",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ProcessMVVM.csproj",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ProcessMVVM.csproj",
+              "RelativeToolTip": "ProcessMVVM\\ProcessMVVM.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T21:23:12.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NetstatOutputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Models\\Helpers\\NetstatOutputHelper.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Models\\Helpers\\NetstatOutputHelper.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Models\\Helpers\\NetstatOutputHelper.cs",
+              "RelativeToolTip": "ProcessMVVM\\Models\\Helpers\\NetstatOutputHelper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-06T13:47:22.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\MainWindow.xaml",
+              "RelativeToolTip": "ProcessMVVM\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-15T21:05:46.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Services\\NavigationService.cs",
+              "RelativeToolTip": "ProcessMVVM\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA0wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-17T13:21:22.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ParameterNavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Services\\ParameterNavigationService.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Services\\ParameterNavigationService.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Services\\ParameterNavigationService.cs",
+              "RelativeToolTip": "ProcessMVVM\\Services\\ParameterNavigationService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:22:36.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "ProcessMVVM\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:28:35.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\App.xaml.cs",
+              "RelativeToolTip": "ProcessMVVM\\App.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAzwBcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T14:45:34.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AnalysisView.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\AnalysisView.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Views\\AnalysisView.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\AnalysisView.xaml",
+              "RelativeToolTip": "ProcessMVVM\\Views\\AnalysisView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-17T14:18:09.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavigationStore.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Stores\\NavigationStore.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Stores\\NavigationStore.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Stores\\NavigationStore.cs",
+              "RelativeToolTip": "ProcessMVVM\\Stores\\NavigationStore.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:08:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CloseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\CloseCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\CloseCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\CloseCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\CloseCommand.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T20:35:20.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavigateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\NavigateCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\NavigateCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\NavigateCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\NavigateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-17T18:32:01.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProcessMVVM\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-19T18:13:28.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs",
+              "RelativeToolTip": "ProcessMVVM\\obj\\Debug\\net7.0-windows\\MainWindow.g.i.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-19T18:16:40.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs",
+              "RelativeToolTip": "ProcessMVVM\\obj\\Debug\\net7.0-windows\\App.g.i.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwCkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-19T18:17:27.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RefreshCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\RefreshCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\RefreshCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\RefreshCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\RefreshCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T14:58:22.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClearCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\ClearCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\ClearCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\ClearCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\ClearCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T14:57:25.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NetstatProcessException.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Exceptions\\NetstatProcessException.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Exceptions\\NetstatProcessException.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Exceptions\\NetstatProcessException.cs",
+              "RelativeToolTip": "ProcessMVVM\\Exceptions\\NetstatProcessException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:15:08.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SecondWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\SecondWindow.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Views\\SecondWindow.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\SecondWindow.xaml",
+              "RelativeToolTip": "ProcessMVVM\\Views\\SecondWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-16T17:01:06.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\MoveCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\MoveCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\MoveCommand.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T20:59:23.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ProcessMVVM\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:10:55.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ParticularProcessView.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\ParticularProcessView.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Views\\ParticularProcessView.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\ParticularProcessView.xaml",
+              "RelativeToolTip": "ProcessMVVM\\Views\\ParticularProcessView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-16T16:44:24.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\CommandBase.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\CommandBase.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\CommandBase.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\CommandBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:21:07.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ProcessMVVM\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:06:58.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnalysisViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\AnalysisViewModel.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ViewModels\\AnalysisViewModel.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\AnalysisViewModel.cs",
+              "RelativeToolTip": "ProcessMVVM\\ViewModels\\AnalysisViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA2wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-17T13:41:55.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParticularProcessViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\ParticularProcessViewModel.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\ViewModels\\ParticularProcessViewModel.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\ViewModels\\ParticularProcessViewModel.cs",
+              "RelativeToolTip": "ProcessMVVM\\ViewModels\\ParticularProcessViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA0wC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T16:41:02.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavigateAnalysisCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\NavigateAnalysisCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\NavigateAnalysisCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\NavigateAnalysisCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\NavigateAnalysisCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-17T14:25:34.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\DetailsCommand.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Commands\\DetailsCommand.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Commands\\DetailsCommand.cs",
+              "RelativeToolTip": "ProcessMVVM\\Commands\\DetailsCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-16T16:40:16.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Views\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\HomeView.xaml",
+              "RelativeToolTip": "ProcessMVVM\\Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-16T14:19:22.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewsStyling.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\ViewsStyling.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Views\\ViewsStyling.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Views\\ViewsStyling.xaml",
+              "RelativeToolTip": "ProcessMVVM\\Views\\ViewsStyling.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-16T14:19:40.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\App.xaml",
+              "RelativeDocumentMoniker": "ProcessMVVM\\App.xaml",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\App.xaml",
+              "RelativeToolTip": "ProcessMVVM\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-07-16T14:45:28.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCPProcess.cs",
+              "DocumentMoniker": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Models\\TCPProcess.cs",
+              "RelativeDocumentMoniker": "ProcessMVVM\\Models\\TCPProcess.cs",
+              "ToolTip": "C:\\Users\\dihba\\Desktop\\ZenTries\\Network Scanner\\ProcessMVVM\\ProcessMVVM\\Models\\TCPProcess.cs",
+              "RelativeToolTip": "ProcessMVVM\\Models\\TCPProcess.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-15T21:19:16.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

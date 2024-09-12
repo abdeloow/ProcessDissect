@@ -1,0 +1,107 @@
+﻿<UserControl x:Class="ProcessMVVM.Views.ParticularProcessView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProcessMVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ViewsStyling.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Process Information" Style="{StaticResource Headers}" Grid.ColumnSpan="2"/>
+        <Border Grid.Row="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Process Name" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="2" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Process ID" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="3" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Protocol" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="4" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Local IP" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="5" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Local Port" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="6" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Remote IP" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="7" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Remote Port" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="8" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="Status" Style="{StaticResource Regular}"/>
+        </Border>
+        <!--Controls-->
+        <Border Grid.Row="9" Grid.ColumnSpan="2" Style="{StaticResource BorderTheme}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Style="{StaticResource ButtonTheme}" Content="⏮️" Command="{Binding PreviousCommand}"/>
+                <TextBlock Text="{Binding SelectedProcess.ProcessName}" Style="{StaticResource Regular}" VerticalAlignment="Center"/>
+                <Button Style="{StaticResource ButtonTheme}" Content="⏭️" Command="{Binding NextCommand}"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="10" Grid.ColumnSpan="2" Style="{StaticResource BorderTheme}">
+            <StackPanel Margin="5" HorizontalAlignment="Center">
+                <TextBlock Text="Number Of Related Processes:" Style="{StaticResource Regular}"/>
+                <TextBlock Text="{Binding AssociatedProcessesCount}" Style="{StaticResource Regular}" Name="ProcessCount"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="11" Style="{StaticResource BorderTheme}" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Close" Command="{Binding CloseCommand}" Style="{StaticResource ButtonTheme}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
+                <Button Content="Associated Processes" Command="{Binding AssociatedProcessesCommand}" CommandParameter="{Binding ElementName=ProcessCount}" Style="{StaticResource ButtonTheme}"/>
+            </StackPanel>
+        </Border>
+        <!--Values-->
+        <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.ProcessName}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.ProcessID}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="3" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.Protocol}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="4" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.LocalIP}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="5" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.LocalPort}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="6" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.RemoteIP}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="7" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.RemotePort}" Style="{StaticResource Regular}"/>
+        </Border>
+        <Border Grid.Row="8" Grid.Column="1" Style="{StaticResource BorderTheme}">
+            <TextBlock Text="{Binding SelectedProcess.Status}" Style="{StaticResource Regular}"/>
+        </Border>
+    </Grid>
+</UserControl>

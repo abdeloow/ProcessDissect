@@ -1,0 +1,110 @@
+﻿<UserControl x:Class="ProcessMVVM.Views.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProcessMVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ViewsStyling.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Active TCP Processes" Style="{StaticResource Headers}"/>
+        <Border Grid.Row="1" Style="{StaticResource BorderTheme}" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Search for a Process :" Style="{StaticResource Regular}" VerticalAlignment="Center"/>
+                <TextBox Text="{Binding SearchValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="190"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" Style="{StaticResource BorderTheme}" HorizontalAlignment="Center">
+            <ListView x:Name="ProcessesList" ItemsSource="{Binding ActiveTcpProcesses}" SelectedItem="{Binding CurrentTcpProcess, Mode=TwoWay}" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Process Name">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding ProcessName}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Process ID">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding ProcessID}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Protocol">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Protocol}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Local IP">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding LocalIP}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Local Port">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding LocalPort}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Remote IP">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding RemoteIP}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Remote Port">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding RemotePort}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Status">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Status}" Style="{StaticResource Regular}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+        <Border Grid.Row="3" Style="{StaticResource BorderTheme}" HorizontalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="Total Of Active Processes" Style="{StaticResource Headers}"/>
+                <TextBlock Text="{Binding ProcessCount}" Style="{StaticResource Regular}"/>
+                <TextBlock Text="{Binding CurrentTcpProcess.ProcessName}" Style="{StaticResource Regular}"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="4" Style="{StaticResource BorderTheme}" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Button Style="{StaticResource ButtonTheme}" Content="Clear" Command="{Binding ClearCommand}" CommandParameter="{Binding ElementName=ProcessesList}"/>
+                <Button Style="{StaticResource ButtonTheme}" Content="Refresh" Command="{Binding RefreshCommand}"/>
+                <Button Style="{StaticResource ButtonTheme}" Content="Details" Command="{Binding DetailsCommand}" CommandParameter="{Binding SelectedValue,ElementName=ProcessesList}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
